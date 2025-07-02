@@ -1,0 +1,281 @@
+body {
+  background: #f9f9f9;
+}
+
+.main-header {
+  padding-top: 20px;
+  height: 200px;
+  background-color: #fff;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #4c5578;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.nav-link:hover {
+  color: #008283;
+}
+
+.btn-sm {
+  font-size: 14px;
+  color: #0d213a;
+  font-weight: 500;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-sm:hover {
+  color: #ffffff;
+  background: #4c5578;
+}
+
+.col {
+  justify-content: flex-end;
+}
+
+.second-section {
+  padding-top: 80px !important;
+}
+
+.section-title {
+  font-family: "Georgia", serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #4a596b;
+}
+
+.section-text {
+  max-width: 500px;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #4a596b;
+}
+
+.highlight-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #008283;
+}
+
+.second-section-a {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #2f374a;
+}
+
+.second-section-text {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #2f374a;
+  margin-bottom: 0px;
+}
+
+.btn-outline-dark {
+  color: #fff;
+  background: #008283;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 6px;
+  border-color: #008283;
+  padding: 5px 16px;
+}
+.btn-outline-dark:hover {
+  background: #4c5578;
+}
+
+.right-box {
+  background: #eaebee;
+  padding: 32px;
+  border-radius: 6px;
+}
+
+.text-right {
+  color: #008283;
+  width: 500px;
+  font-size: 14px;
+}
+
+.right-box h5 {
+  color: #2f374a;
+  font-size: 25px;
+  margin-top: 6px;
+}
+
+.release {
+  color: #0d213a8a !important;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.melody-section {
+  padding: 60px 0px !important;
+}
+
+.img-inst {
+  padding-left: 120px !important;
+}
+
+.img-notes {
+  margin-top: 30px;
+}
+
+.text-uppercase {
+  font-size: 60px;
+}
+
+.melody-inner {
+  max-width: 1360px;
+  background: radial-gradient(circle, #008283 0%, #013d3d 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 6px;
+}
+
+.pattern-overlay {
+  background: url("../img/melody-bg.png") center center / cover no-repeat;
+  background-color: rgba(18, 18, 23, 0.7);
+  opacity: 0.7;
+  z-index: 0;
+  mix-blend-mode: multiply;
+}
+
+.container-1360 {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  color: #008283;
+}
+
+.authors-recommendation {
+  margin-top: 40px;
+}
+.quote {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 1100px;
+
+  /* Градиент текста */
+  background: linear-gradient(to bottom, #4c5578, #a1a9b2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.partners-logos {
+  margin-top: 40px;
+}
+.partner-logo {
+  height: 50px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;
+}
+
+footer {
+  margin-top: 40px;
+}
+.footer-heading {
+  font-weight: 600;
+  color: #008283;
+  font-size: 14px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Общие стили */
+footer {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-logo {
+  width: 217px;
+  height: 140px;
+  margin-right: 100px;
+}
+
+footer a {
+  color: rgba(13, 33, 58, 0.54);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+.add {
+  color: rgba(13, 33, 58, 0.54);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+footer h6 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #008283;
+  font-size: 14px;
+}
+
+.icons {
+  margin-top: 250px;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+footer .btn {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border-radius: 8px;
+}
+
+footer .text-muted {
+  color: #6c757d !important;
+  font-size: 13px;
+}
+
+.net img {
+  max-height: 24px;
+  margin-top: 300px;
+}
+
+footer .container-1360 {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.footer-end {
+  margin-bottom: 40px;
+}
