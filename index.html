@@ -178,7 +178,8 @@
           <!-- Левая колонка -->
           <div class="col-md-7">
             <h2 class="section-title mb-4 cormorant">
-              ПРОФИЛЬ И<br />МИССИЯ ЖУРНАЛА
+              ПРОФИЛЬ <br class="d-block d-md-none""> И <br class="d-none
+              d-md-block"/ >МИССИЯ ЖУРНАЛА
             </h2>
 
             <p class="section-text mb-3">
@@ -195,14 +196,14 @@
             </p>
 
             <div class="row mb-4">
-              <div class="col-md-6">
+              <div class="col-6 col-md-6">
                 <strong class="highlight-label">Издатель:</strong><br />
-                <a href="#" class="second-section-a"
-                  >Казахская национальная <br />
-                  консерватория имени Курмангазы</a
-                >
+                <a href="#" class="second-section-a">
+                  Казахская национальная <br />
+                  консерватория имени Курмангазы
+                </a>
               </div>
-              <div class="col-md-6">
+              <div class="col-6 col-md-6">
                 <strong class="highlight-label">Периодичность издания:</strong
                 ><br />
                 <p class="second-section-text">
@@ -211,6 +212,7 @@
                 <p class="second-section-text">Издаётся с 2013 года;</p>
               </div>
             </div>
+
             <a href="#" class="btn btn-outline-dark">Цели журнала</a>
           </div>
 
@@ -220,7 +222,7 @@
               <img
                 src="img/book.png"
                 alt="Обложка журнала"
-                class="img-fluid mb-3"
+                class="img-fluid mb-3 second-section-img"
               />
               <p class="text-right mb-0">Текущий выпуск</p>
               <h5 class="fw-semibold">Saryn №1 (13) 2025-03-22</h5>
@@ -241,20 +243,18 @@
       </div>
     </section>
 
-    <section class="melody-section py-5">
+    <!-- 3 секция -->
+    <section class="melody-section py-5 container-1360">
       <div class="melody-inner position-relative mx-auto">
-        <!-- Фоновый рисунок с маской -->
-        <div class="melody-bg"></div>
-
-        <!-- Градиентный цвет -->
-        <div
-          class="melody-gradient position-absolute top-0 start-0 w-100 h-100"
-        ></div>
+        <div class="melody-overlay">
+          <div class="melody-bg"></div>
+          <div class="melody-gradient"></div>
+        </div>
 
         <!-- Контент -->
         <div class="row align-items-center position-relative">
           <!-- Левая часть -->
-          <div class="col-md-6 position-relative">
+          <div class="col-md-6 position-relative melody-section-left">
             <img
               src="img/instrument.png"
               alt="Инструмент"
@@ -302,26 +302,31 @@
 
     <section class="partners-logos py-5">
       <div class="container-1360">
-        <div class="row text-center align-items-center justify-content-between">
-          <div class="col">
+        <div class="row text-center align-items-center justify-content-center">
+          <!-- Ряд 1: 2 логотипа -->
+          <div class="col-6 col-md">
             <img src="img/logo1.png" alt="Partner 1" class="partner-logo" />
           </div>
-          <div class="col">
+          <div class="col-6 col-md">
             <img src="img/logo2.png" alt="Partner 2" class="partner-logo" />
           </div>
-          <div class="col">
+
+          <!-- Ряд 2: 3 логотипа -->
+          <div class="col-4 col-md">
             <img src="img/logo3.png" alt="Partner 3" class="partner-logo" />
           </div>
-          <div class="col">
+          <div class="col-4 col-md">
             <img src="img/logo4.png" alt="Partner 4" class="partner-logo" />
           </div>
-          <div class="col">
+          <div class="col-4 col-md">
             <img src="img/logo5.png" alt="Partner 5" class="partner-logo" />
           </div>
-          <div class="col">
+
+          <!-- Ряд 3: 2 логотипа -->
+          <div class="col-6 col-md">
             <img src="img/logo6.png" alt="Partner 6" class="partner-logo" />
           </div>
-          <div class="col">
+          <div class="col-6 col-md">
             <img src="img/logo7.png" alt="Partner 7" class="partner-logo" />
           </div>
         </div>
