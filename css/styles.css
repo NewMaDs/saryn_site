@@ -322,6 +322,10 @@ footer .btn {
   border-radius: 8px;
 }
 
+.footer-soc-net {
+  align-items: end;
+}
+
 footer .text-muted {
   color: #6c757d !important;
   font-size: 13px;
@@ -498,6 +502,75 @@ footer .container-1360 {
     font-size: 14px !important;
     margin: 0 20px;
   }
+
+  /* 5 секция */
+  .partners-logos {
+    margin-top: 0px;
+    padding-top: 0px !important;
+  }
+  .logo-1 {
+    width: 67.5px;
+    height: 67.5px;
+  }
+
+  .logo-6 {
+    width: 41px;
+    height: 25px;
+  }
+
+  .col-padding {
+    margin-top: 30px;
+  }
+
+  /* footer */
+  .footer-logo {
+    width: 137px;
+    height: 88px;
+    margin: 0px !important;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-row > .col-md:first-child,
+  .footer-row > .col-auto.up-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    order: 1;
+  }
+  .footer-row > .col-auto.up-col {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer-row > .col-md:not(:first-child),
+  .footer-row > .col-auto:not(.up-col) {
+    order: 2;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .footer-block {
+    width: 50% !important;
+  }
+
+  .footer-btn {
+    margin-left: 60%;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .footer-soc-net {
+    margin-top: 10px;
+    align-items: start;
+  }
+
+  .footer-margin-top {
+    margin-top: 20px;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -589,8 +662,11 @@ footer .container-1360 {
   }
 
   /* 4 секция */
+  .authors-recommendation {
+    padding-bottom: 0px !important;
+  }
 
-  .text-teal{
+  .text-teal {
     font-size: 14px;
   }
 
